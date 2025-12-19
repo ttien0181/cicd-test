@@ -34,7 +34,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: lamdb/it4409-sample:staging
+          tags: ttien0181/docker-web-cicd-example:staging
 
   deploy:
     name: Deploy to Server
